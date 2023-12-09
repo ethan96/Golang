@@ -1,0 +1,9 @@
+開發專案時
+go run [app.go]  可直接執行
+
+要建置前, 需將專案打包成 module (要有 main package)
+go mod ini [module name]
+
+接著輸入, 就可以打包成該平台專用的執行檔案
+go build
+Ex. Windows: 生成 exe, Mac & Linux 生成可以 x 的程式
